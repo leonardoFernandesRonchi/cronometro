@@ -1,0 +1,83 @@
+body {
+  font-family:"rajdhani" "Arial Black", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#stopwatch {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  
+  
+
+}
+
+#timer {
+  font-size: 72px;
+  margin-bottom: 40px;
+  color: #333333;
+  text-shadow: 2px 2px 4px #cccccc;
+}
+
+#actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 20px;
+  background-color: #dddddd;
+  color: #333333;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 20px;
+  box-shadow: 2px 2px 4px #cccccc;
+}
+
+#marks-list {
+  text-align: center;
+}
+
+#marks-list p {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #666666;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+.fa-solid {
+  font-family: "Font Awesome 6";
+  font-weight: 400;
+}
+
+.fa-solid.fa-redo,
+.fa-solid.fa-play {
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  #stopwatch {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  #timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  #marks-list p {
+    font-size: 18px;
+  }
+}
